@@ -1,38 +1,16 @@
-.App {
-  text-align: center;
+.jumbotron {
+  margin: 0;
+  padding: 20px;
+  background-image: linear-gradient( to right, #362e24,
+  #c28845, #f1cf84);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(175, 168, 147);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  border-style: inset indigo;
+  box-shadow: 4px 4px 4px rgba(76, 0, 130, 0.699);
+  
 }
