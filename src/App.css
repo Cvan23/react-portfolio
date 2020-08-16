@@ -14,3 +14,14 @@ img {
   box-shadow: 4px 4px 4px rgba(76, 0, 130, 0.699);
   
 }
+
+.navbar {
+  background-color: #362e24e1;
+}
+
+.site-footer {
+  background-image: linear-gradient( to right, #362e24,
+  #c28845, #f1cf84);
+  padding: 20px 0;
+  margin-top: 20%;
+}
