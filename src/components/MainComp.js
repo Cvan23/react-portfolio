@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-//import { Card, CardImg, CardImgOverlay, CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import Header from './HeaderComp';
 import Footer from './FooterComp';
 import Home from './HomeComp';
+import Story from './StoryComp';
 import { TOPCARDS } from '../shared/topcards';
 import { Switch, Route } from 'react-router-dom';
 
@@ -20,7 +20,8 @@ class Main extends Component {
       <div>
         <Header />
         <Switch>
-          <Route path='/' component={Home} />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/story' component={Story} />
         </Switch>
         <Footer />
       </div>
