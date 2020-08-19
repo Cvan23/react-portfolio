@@ -62,6 +62,11 @@ class Header extends Component {
                                   </NavLink>
                               </NavItem>
                               <NavItem>
+                                  <NavLink className="nav-link" to="/adopt">
+                                      <i className="fa fa-heart-o fa-lg" /> Adoptions
+                                  </NavLink>
+                              </NavItem>
+                              <NavItem>
                                   <NavLink className="nav-link" to="/yummy">
                                       <i className="fa fa-coffee fa-lg" /> Menu
                                   </NavLink>
