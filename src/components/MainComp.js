@@ -3,7 +3,9 @@ import Header from './HeaderComp';
 import Footer from './FooterComp';
 import Home from './HomeComp';
 import Story from './StoryComp';
-import { TOPCARDS } from '../shared/topcards';
+import Cats from './CatsComp';
+import Partners from './PartnersComp';
+
 import { Switch, Route } from 'react-router-dom';
 
 
@@ -11,7 +13,7 @@ class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      topcards: TOPCARDS
+      
     };
   }
 
@@ -22,6 +24,8 @@ class Main extends Component {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/story' component={Story} />
+          <Route exact path='/cats' component={Cats} />
+          <Route exact path='/partners' component={Partners} />
         </Switch>
         <Footer />
       </div>

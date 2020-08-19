@@ -29,7 +29,7 @@ class Header extends Component {
                               <img src="/assets/images/kittencup1.jpg" className="float-left clearfix" width="100%" />
                           </div>
                           <div className="col col-sm-3 col-md-4 align-self-center">
-                              <h1>Coffe Kitty</h1>
+                              <h1>Coffee Kitty</h1>
                               <h2>Rescue Cat Cafe</h2>
                               <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram"></i></a>
                               <a className="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i className="fa fa-facebook"></i></a>
@@ -54,6 +54,11 @@ class Header extends Component {
                               <NavItem>
                                   <NavLink className="nav-link" to="/cats">
                                       <i className="fa fa-github-alt fa-lg" /> Our Cats
+                                  </NavLink>
+                              </NavItem>
+                              <NavItem>
+                                  <NavLink className="nav-link" to="/partners">
+                                      <i className="fa fa-heart fa-lg" /> Community Partners
                                   </NavLink>
                               </NavItem>
                               <NavItem>

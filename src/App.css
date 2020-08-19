@@ -1,6 +1,6 @@
 .jumbotron {
   margin: 0;
-  padding: 20px;
+  padding: 10px;
   background-image: linear-gradient( to right, #362e24,
   #c28845, #f1cf84);
 }
@@ -9,9 +9,18 @@ body {
   background-color: rgb(175, 168, 147);
 }
 
+h1, h2 {
+  color: rgb(74, 7, 129);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 100px;
+}
+
 img {
   border-style: inset indigo;
-  box-shadow: 4px 4px 4px rgba(76, 0, 130, 0.699);
+  box-shadow: 6px 6px 4px rgba(76, 0, 130, 0.699);
   
 }
 
@@ -24,4 +33,18 @@ img {
   #c28845, #f1cf84);
   padding: 20px 0;
   margin-top: 20%;
+}
+
+.card-title {
+  font-size: 40px;
+}
+
+.card-text {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.card-body {
+  background-image: linear-gradient( to left, #362e24a1,
+  #c28845, #f1cf84);
 }
