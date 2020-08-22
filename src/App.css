@@ -48,3 +48,17 @@ img {
   background-image: linear-gradient( to left, #362e24a1,
   #c28845, #f1cf84);
 }
+
+.carousel-item {
+  background-color: rgba(0, 0, 0, 0.589);
+}
+
+.carousel-caption {
+  color: rgb(195, 173, 236);
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 6px 6px 4px rgba(76, 0, 130, 0.5);
+}
+
+.carousel {
+  box-shadow: 6px 6px 4px rgba(76, 0, 130, 0.699);
+}

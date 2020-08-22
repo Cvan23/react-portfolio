@@ -14,6 +14,9 @@ function Story(props) {
                 <p class="align-text-bottom">Tomcat bengal. Panther mouser. Puma panther. Cougar lion for munchkin. Havana brown russian blue so jaguar.
                 Russian blue british shorthair tom yet devonshire rex american shorthair. Limouser but egyptian mau. American shorthair ocicat grimalkin.
                 Tiger munchkin, for cougar or cougar. Abyssinian kitten lion scottish fold, fsiamese.</p>
+                <p class="align-text-bottom">Tomcat bengal. Panther mouser. Puma panther. Cougar lion for munchkin. Havana brown russian blue so jaguar.
+                Russian blue british shorthair tom yet devonshire rex american shorthair. Limouser but egyptian mau. American shorthair ocicat grimalkin.
+                Tiger munchkin, for cougar or cougar. Abyssinian kitten lion scottish fold, fsiamese.</p>
             </div>
         </div>
     </div>
