@@ -61,4 +61,13 @@ img {
 
 .carousel {
   box-shadow: 6px 6px 4px rgba(76, 0, 130, 0.699);
+  
+}
+
+.card-header {
+  background-image: linear-gradient( to left, #362e24,
+  #c28845, #f1cf84);
+  font-size: xx-large;
+  font-weight: bolder;
+  
 }
