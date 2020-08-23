@@ -24,20 +24,20 @@ function Cats(props) {
       {
         src:
         "/assets/images/altrescuecat1.jpg",
-        altText: "Slide 1",
-        caption: "Slide 1",
+        //altText: "Slide 1",
+        caption: "Shadow",
       },
       {
         src:
         "/assets/images/altrescuecat2.jpg",
-        altText: "Slide 2",
-        caption: "Slide 2"
+        //altText: "Cinnamon",
+        caption: "Cinnamon"
       },
       {
         src:
         "/assets/images/altrescuecat3.jpg",
-        altText: "Slide 3",
-        caption: "Slide 3"
+        //altText: "Slide 3",
+        caption: "Ripley, Newt and Jonesey"
       }
     ];
     
@@ -95,7 +95,7 @@ function Cats(props) {
             >
               <img src={item.src} alt={item.altText} width="100%" />
               <CarouselCaption
-                captionText={item.caption}
+                //captionText={item.caption}
                 captionHeader={item.caption}
               />
             </CarouselItem>

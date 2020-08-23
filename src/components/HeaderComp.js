@@ -2,6 +2,8 @@ import React, { Component }  from 'react';
 import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
+
+
 class Header extends Component {
 
   constructor(props) {
@@ -23,14 +25,15 @@ class Header extends Component {
       return (
           <React.Fragment>
               <Jumbotron fluid>
+                  <img src="/assets/images/jumboalt1.jpg" width="100%" className="mt-5" />
                   <div className="container">
                       <div className="row">
-                          <div className="col col-sm-4 align-self-center clearfix">
+                          {/* <div className="col col-sm-4 align-self-center clearfix">
                               <img src="/assets/images/kittencup1.jpg" className="float-left clearfix" width="100%" />
-                          </div>
+                          </div> */}
                           <div className="col col-sm-3 col-md-4 align-self-center">
-                              <h1>Coffee Kitty</h1>
-                              <h2>Rescue Cat Cafe</h2>
+                              {/* <h1>Coffee Kitty</h1>
+                              <h2>Rescue Cat Cafe</h2> */}
                               <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram"></i></a>
                               <a className="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i className="fa fa-facebook"></i></a>
                               <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter"></i></a>
@@ -42,7 +45,7 @@ class Header extends Component {
 
               <Navbar dark sticky="top" expand="md">
                   <div className="container">
-                      <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/catcoffeelogo.jpg" height="30" width="30" alt="coffee-kitty-logo" /></NavbarBrand>
+                      <NavbarBrand className="float-left" href="/"><img src="/assets/images/catcoffeelogo.jpg" height="33" width="33" alt="coffee-kitty-logo" /></NavbarBrand>
                       <NavbarToggler onClick={this.toggleNav} />
                       <Collapse isOpen={this.state.isNavOpen} navbar>
                           <Nav navbar>

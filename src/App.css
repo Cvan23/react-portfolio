@@ -5,6 +5,10 @@
   #c28845, #f1cf84);
 }
 
+/* .jumbotron-cover-image {
+  background-image: url(/public/assets/images/jumboalt1.jpg);
+} */
+
 body {
   background-color: rgb(175, 168, 147);
 }
