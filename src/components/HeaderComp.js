@@ -24,23 +24,21 @@ class Header extends Component {
   render() {
       return (
           <React.Fragment>
+              
               <Jumbotron fluid>
-                  <img src="/assets/images/jumboalt1.jpg" width="100%" className="mt-5" />
-                  <div className="container">
+                  
+                  <header className="container">
                       <div className="row">
-                          {/* <div className="col col-sm-4 align-self-center clearfix">
-                              <img src="/assets/images/kittencup1.jpg" className="float-left clearfix" width="100%" />
-                          </div> */}
-                          <div className="col col-sm-3 col-md-4 align-self-center">
-                              {/* <h1>Coffee Kitty</h1>
-                              <h2>Rescue Cat Cafe</h2> */}
-                              <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram"></i></a>
-                              <a className="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i className="fa fa-facebook"></i></a>
-                              <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter"></i></a>
-                              <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube"></i></a>
+                          
+                          <div className="col col-sm-3 col-md-4 mr-5">
+                              <h1>Coffee Kitty</h1>
+                              <h2>Rescue Cat Cafe</h2>
+                              <a className="mr-2" href="http://instagram.com/"><i className="fa fa-2x fa-instagram"></i></a>
+                              <a className="" href="http://facebook.com/"><i className="fa fa-2x fa-facebook"></i></a>
+                              <a className="ml-2" href="http://twitter.com/"><i className="fa fa-2x fa-twitter"></i></a>
                           </div>
                       </div>
-                  </div>
+                  </header>
               </Jumbotron>
 
               <Navbar dark sticky="top" expand="md">

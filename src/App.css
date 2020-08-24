@@ -1,13 +1,12 @@
 .jumbotron {
   margin: 0;
   padding: 10px;
-  background-image: linear-gradient( to right, #362e24,
-  #c28845, #f1cf84);
+  background-image: url(./jumboalt2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: relative;
+  
 }
-
-/* .jumbotron-cover-image {
-  background-image: url(/public/assets/images/jumboalt1.jpg);
-} */
 
 body {
   background-color: rgb(175, 168, 147);
@@ -19,7 +18,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 80px;
 }
 
 img {
@@ -33,10 +32,13 @@ img {
 }
 
 .site-footer {
-  background-image: linear-gradient( to right, #362e24,
-  #c28845, #f1cf84);
+  background-image: url(./jumboalt2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: relative;
+  height: 350px;
   padding: 20px 0;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 .card-title {
@@ -49,8 +51,8 @@ img {
 }
 
 .card-body {
-  background-image: linear-gradient( to left, #362e24a1,
-  #c28845, #f1cf84);
+  background-image: linear-gradient( to left, #413f3da1,
+  #caa881a1, #eed49bdc);
 }
 
 .carousel-item {
