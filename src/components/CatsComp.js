@@ -5,12 +5,13 @@ import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCa
 
 function Cats(props) {
   return (
-    <div className="col mt-5">
-      <h2>Meet Our Cats!</h2>
-      <img src="/assets/images/El-Gato-Coffee-House.png"  width="100%" />
-      <div>
-        <div className="col mt-5">
-          <OurCats />
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-lg mt-5">
+          <img src="/assets/images/El-Gato-Coffee-House.png"  width="100%" />
+        </div>
+        <div className="col-lg mt-5">
+            <OurCats />
         </div> 
       </div>
     </div>

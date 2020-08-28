@@ -26,7 +26,7 @@ function CatCard() {
     <React.Fragment>
     <Card className="container-fluid">
       <CardBody className="row">
-      <Col className="d-flex">
+      <Col className="d-flex ml-5">
       <div onClick={() => set(state => !state)}>
         <a.div class="c back" style={{ opacity: opacity.interpolate(o => 1 - o), transform }} />
         <a.div class="c front" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }} />

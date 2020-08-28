@@ -31,7 +31,7 @@ class CatPartners extends Component {
             return (
             <React.Fragment> 
               <Card style={{ marginBottom: '1rem' }} key={index}>
-                <CardHeader onClick={this.toggle} data-event={index}>Walter</CardHeader>
+                <CardHeader className="card-subtitle" onClick={this.toggle} data-event={index}>Walter</CardHeader>
                 <Collapse isOpen={collapse === index}>
                   <CardBody>
                     <div className="col">
@@ -44,7 +44,7 @@ class CatPartners extends Component {
               </Card>
                 <hr />
               <Card style={{ marginBottom: '1rem' }} key={index}>
-                <CardHeader onClick={this.toggle} data-event={index}>Princess Meow Meow!</CardHeader>
+                <CardHeader className="card-subtitle" onClick={this.toggle} data-event={index}>Princess Meow Meow!</CardHeader>
                 <Collapse isOpen={collapse === index}>
                   <CardBody>
                     <div className="col">
@@ -57,7 +57,7 @@ class CatPartners extends Component {
               </Card>
                 <hr/>
               <Card style={{ marginBottom: '1rem' }} key={index}>
-                <CardHeader onClick={this.toggle} data-event={index}>Stuart!</CardHeader>
+                <CardHeader className="card-subtitle" onClick={this.toggle} data-event={index}>Stuart!</CardHeader>
                 <Collapse isOpen={collapse === index}>
                   <CardBody>
                     <div className="col">

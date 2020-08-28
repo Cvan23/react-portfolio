@@ -33,14 +33,14 @@ class ComPartners extends Component {
             return (
             <React.Fragment> 
               <Card style={{ marginBottom: '1rem' }} key={index}>
-                <CardHeader onClick={this.toggle} data-event={index}>Pounce Play and Stay</CardHeader>
+                <CardHeader className="card-subtitle" onClick={this.toggle} data-event={index}>Pounce Play and Stay</CardHeader>
                 <Collapse isOpen={collapse === index}>
                   <CardBody>
                     <div className="col">
                       <a href="http://www.pounceplayandstay.com/" target="-blank">
                        <h3><em>Delux Cat Boarding</em></h3>
                       </a>
-                      <img src="/assets/images/pounce1.jpg" />
+                      <img src="/assets/images/pounce1.jpg" width="80%" />
                       <h4 className="mt-5">Pounce Play and Stay isn't your typical boarding  environment, more like "home away from home." </h4>
                     </div>
                   </CardBody>
@@ -48,14 +48,14 @@ class ComPartners extends Component {
               </Card>
                 <hr />
               <Card style={{ marginBottom: '1rem' }} key={index}>
-                <CardHeader onClick={this.toggle} data-event={index}>The Pixie Project</CardHeader>
+                <CardHeader className="card-subtitle" onClick={this.toggle} data-event={index}>The Pixie Project</CardHeader>
                 <Collapse isOpen={collapse === index}>
                   <CardBody>
                     <div className="col">
                         <a href="https://www.pixieproject.org/" target="-blank">
                          <h3><em>Changing the Face of Animal Rescue</em></h3>
                         </a>
-                        <img src="/assets/images/pixie1.jpg" />
+                        <img src="/assets/images/pixie1.jpg" width="80%" />
                         <h4 className="mt-5">The Pixie Project is a non-profit animal adoption center and rescue. We offer a variety of services to the public. </h4>
                     </div>
                   </CardBody>
@@ -70,7 +70,6 @@ class ComPartners extends Component {
     );
   }
 }
-
 
 
 

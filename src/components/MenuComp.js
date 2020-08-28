@@ -7,8 +7,8 @@ function Menu(props) {
     <div className="col">
       <div className="card">
         <div className="card-body">
-          <CardTitle>Menu</CardTitle>
-          <img src="/assets/images/menu2.png" width="100%" />
+          <CardTitle className="ml-5">Menu</CardTitle>
+          <img className="ml-5" src="/assets/images/menu2.png" width="80%" />
         </div>
       </div>
     </div>
