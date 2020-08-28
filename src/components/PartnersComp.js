@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, CardImg, CardText, CardHeader, CardBody, CardTitle, CardSubtitle, Button, Media, Collapse } from 'reactstrap'
+import {useSpring, animated} from 'react-spring'
 
 function Partners(props) {
   return (
@@ -8,6 +9,7 @@ function Partners(props) {
       <h2 className="text-lg-center">Community Partners</h2>
       <ComPartners />
     </div>
+
   );
 }
 
@@ -68,6 +70,7 @@ class ComPartners extends Component {
     );
   }
 }
+
 
 
 

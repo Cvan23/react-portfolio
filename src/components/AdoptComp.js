@@ -6,12 +6,12 @@ function Adopt(props) {
   return (
     <div className="col mt-5">
       <h2 className="text-lg-center">Adoption Success Stories!</h2>
-      <ComPartners />
+      <CatPartners />
     </div>
   );
 }
 
-class ComPartners extends Component {
+class CatPartners extends Component {
 
   constructor(props) {
     super(props);

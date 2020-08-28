@@ -1,13 +1,44 @@
-import React from 'react';
+import React, { useState, Component } from 'react';
+import { useSpring, animated as a, animated } from 'react-spring'
+import { Card, CardImg, CardText, CardBody, CardTitle, Col, Media } from 'reactstrap'
+import { render } from 'react-dom';
 
 
-function Home(props) {
+function Home() {
   return (
-    <div className="col mt-5">
-      <img src="/assets/images/jumboalt1.jpg"  width="100%" />
+    <div>
+      
+      <CatCard />
+      
     </div>
-  );
+  )
+}
 
+
+function CatCard() {
+  const [flipped, set] = useState(false)
+  const { transform, opacity } = useSpring({
+    opacity: flipped ? 1 : 0,
+    transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
+    config: { mass: 5, tension: 500, friction: 80 }
+  })
+  return (
+    <React.Fragment>
+    <Card className="container-fluid">
+      <CardBody className="row">
+      <Col className="d-flex">
+      <div onClick={() => set(state => !state)}>
+        <a.div class="c back" style={{ opacity: opacity.interpolate(o => 1 - o), transform }} />
+        <a.div class="c front" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }} />
+      </div>
+      </Col>
+      
+      
+      
+      </CardBody>
+    </Card>
+    </React.Fragment>
+  )
 }
 
 

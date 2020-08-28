@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: rgb(175, 168, 147);
+  background-color: rgb(70, 67, 61);
 }
 
 h1, h2 {
@@ -77,3 +77,34 @@ img {
   font-weight: bolder;
   
 }
+
+.c {
+  position: initial;
+  max-width: 120%;
+  max-height: 100%;
+  width: 70ch;
+  height: 50ch;
+  cursor: pointer;
+  display: flex;
+  will-change: transform, opacity;
+}
+
+.front,
+.back {
+  background-size: cover;
+}
+
+.back {
+  background-image: url(./koabear3.jpg);
+  position: absolute;
+  display: flex;
+  
+}
+
+.front {
+  background-image: url(./angrycoffeecat.jpg);
+  
+  
+}
+
+
