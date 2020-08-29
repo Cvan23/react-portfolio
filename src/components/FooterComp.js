@@ -6,7 +6,7 @@ function Footer(props) {
         <footer className="site-footer">
             <div className="container">
                 <div className="row">             
-                    <div className="col-6 col-sm-3 offset-1 ml-3">
+                    <div className="col-6 col-sm-3 offset-1 ml-2">
                         <ul className="list-unstyled">
                             <li><Link to='/story'>Our Story</Link></li>
                             <li><Link to='/cats'>Our Cats</Link></li>
@@ -17,7 +17,7 @@ function Footer(props) {
                             <li><Link to='/contactus'>Contact</Link></li>
                         </ul>
                     </div>
-                    <div className="col-6 col-sm-3">
+                    <div className="col-6 float-right">
                         <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram" /></a>{' '}
                         <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/"><i className="fa fa-facebook" /></a>{' '}
                         <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter" /></a>{' '}

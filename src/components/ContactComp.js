@@ -86,7 +86,7 @@ render() {
               No
               </Label>
             </FormGroup>
-            <Button outline color="info" type="submit">Send Feedback</Button>
+            <Button outline color="" type="submit">Send Feedback</Button>
           </Form>
         </CardBody>
       </Card>

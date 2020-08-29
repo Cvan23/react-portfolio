@@ -43,7 +43,7 @@ class Header extends Component {
 
               <Navbar dark sticky="top" expand="md">
                   <div className="container">
-                      <NavbarBrand className="float-left" href="/"><img src="/assets/images/catcoffeelogo.jpg" height="33" width="33" alt="coffee-kitty-logo" /></NavbarBrand>
+                      <NavbarBrand className="float-left mb-4" href="/"><img src="/assets/images/catcoffeelogo.jpg" height="33" width="33" alt="coffee-kitty-logo" /></NavbarBrand>
                       <NavbarToggler onClick={this.toggleNav} />
                       <Collapse isOpen={this.state.isNavOpen} navbar>
                           <Nav navbar>

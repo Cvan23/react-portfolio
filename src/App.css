@@ -36,11 +36,23 @@ h1, h2 {
 img {
   border-style: inset indigo;
   box-shadow: 6px 6px 4px rgba(76, 0, 130, 0.699);
-  
 }
 
 .navbar {
   background-color: #362e24e1;
+}
+
+li {
+  font-size: large;
+}
+
+i, a {
+  color: rgb(106, 8, 233);
+}
+
+button {
+  color: #f7f0e8e1;
+  background-color: indigo;
 }
 
 .site-footer {
@@ -65,16 +77,16 @@ img {
 
 .card-body {
   background-image: linear-gradient( to left, #413f3da1,
-  #caa881a1, #eed49bdc);
+  #53402a67, #2105504f);
 }
 
 .carousel-item {
-  background-color: rgba(0, 0, 0, 0.589);
+  background-color: rgba(0, 0, 0, 0.24);
 }
 
 .carousel-caption {
   color: rgb(195, 173, 236);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.404);
   box-shadow: 6px 6px 4px rgba(76, 0, 130, 0.5);
 }
 
@@ -84,8 +96,8 @@ img {
 }
 
 .card-header {
-  background-image: linear-gradient( to right, rgba(138, 4, 233, 0.534),
-  rgba(102, 3, 173, 0.527), rgb(76, 0, 130));
+  background-image: linear-gradient( to right, rgba(138, 4, 233, 0.37),
+  rgba(102, 3, 173, 0.281), rgb(76, 0, 130));
   font-size: xx-large;
   font-weight: bolder;
   
