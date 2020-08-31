@@ -1,7 +1,7 @@
-import React, { useState, Component } from 'react';
+import React, { useState } from 'react';
 import { useSpring, animated as a, animated } from 'react-spring'
-import { Card, CardImg, CardText, CardBody, CardTitle, Col, Media } from 'reactstrap'
-import { render } from 'react-dom';
+import { Card, CardImg, CardText, CardBody, CardTitle, Col } from 'reactstrap'
+
 
 
 function Home() {

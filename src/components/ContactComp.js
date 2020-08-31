@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-//import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Media, Form, FormGroup, Input, Label, FormText, CardHeader } from 'reactstrap'
+import { Card, CardBody, Button, Form, FormGroup, Input, Label, FormText, CardHeader } from 'reactstrap'
 
 function Contact(props) {
   return (

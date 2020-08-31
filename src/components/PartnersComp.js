@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-//import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, CardImg, CardText, CardHeader, CardBody, CardTitle, CardSubtitle, Button, Media, Collapse } from 'reactstrap'
-import {useSpring, animated} from 'react-spring'
+import { Card, CardHeader, CardBody, Collapse } from 'reactstrap'
+
 
 function Partners(props) {
   return (

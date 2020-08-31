@@ -9,8 +9,6 @@ import Partners from './PartnersComp';
 import Menu from './MenuComp';
 import Shop from './ShopComp';
 import Contact from './ContactComp';
-//
-
 import { Switch, Route } from 'react-router-dom';
 
 
