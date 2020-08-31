@@ -6,14 +6,16 @@ import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCa
 function Cats(props) {
   return (
     <div className="container-fluid">
-      <div className="row">
-        <div className="col-lg mt-5">
-          <img src="/assets/images/El-Gato-Coffee-House.png"  width="100%" />
+      <div className="row row-content">
+            <div className="col-lg-6 mt-5 card-header">
+              <h2>Meet Our Cats!</h2>
+              <img src="/assets/images/El-Gato-Coffee-House.png"  width="100%" />
+            </div>
+            <div className="col-lg-6 mt-5 card-header">
+                <h2>Adopt!</h2>
+                <OurCats />
+            </div>
         </div>
-        <div className="col-lg mt-5">
-            <OurCats />
-        </div> 
-      </div>
     </div>
      
     
@@ -109,7 +111,7 @@ function Cats(props) {
             next={this.next}
             previous={this.previous}
           >
-            <CarouselIndicators
+            <CarouselIndicators 
               items={items}
               activeIndex={activeIndex}
               onClickHandler={this.goToIndex}

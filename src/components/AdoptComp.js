@@ -5,7 +5,7 @@ import { Card, CardImg, CardText, CardHeader, CardBody, CardTitle, CardSubtitle,
 function Adopt(props) {
   return (
     <div className="col mt-5">
-      <h2 className="text-lg-center">Adoption Success Stories!</h2>
+      <h1 className="text-lg-center">Adoption Success Stories!</h1>
       <CatPartners />
     </div>
   );

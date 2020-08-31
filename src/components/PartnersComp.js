@@ -6,7 +6,7 @@ import {useSpring, animated} from 'react-spring'
 function Partners(props) {
   return (
     <div className="col mt-5">
-      <h2 className="text-lg-center">Community Partners</h2>
+      <h1 className="text-lg-center">Community Partners</h1>
       <ComPartners />
     </div>
 

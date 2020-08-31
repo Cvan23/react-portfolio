@@ -6,10 +6,11 @@ import { render } from 'react-dom';
 
 function Home() {
   return (
-    <div>
-      
-      <CatCard />
-      
+    <div className="row row-content">
+      <div className="col">
+        
+        <CatCard />
+      </div>
     </div>
   )
 }
@@ -25,6 +26,7 @@ function CatCard() {
   return (
     <React.Fragment>
     <Card className="container-fluid">
+      <CardTitle className="card-header row">Welcome to Coffee Kitty!</CardTitle>
       <CardBody className="row">
       <Col className="d-flex ml-5">
       <div onClick={() => set(state => !state)}>

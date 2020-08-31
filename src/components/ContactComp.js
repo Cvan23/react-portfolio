@@ -5,8 +5,10 @@ import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Med
 function Contact(props) {
   return (
     <div>
-      <div className="col ml-5">
-      <img className="mt-3 mb-3" src="/assets/images/catcoffeelogo.jpg" width="20%" />
+      <div className="row ml-5">
+        <div>
+          <img className="mt-3 mb-3 ml-5" src="/assets/images/rnbowcat.gif"   width="100%" />
+        </div>
       </div>
       <ContactUs />
     </div>
@@ -61,15 +63,15 @@ render() {
         <CardHeader><h4>Send us your feedback</h4></CardHeader>
         <CardBody>
           <Form onSubmit={this.handleContact}>
-            <FormGroup>
+            <FormGroup className="col col-md-6">
               <Label htmlFor="username">Name</Label>
               <Input type="text" id="username" name="username" innerRef={input => this.username = input} placeholder="Name" />
             </FormGroup>
-            <FormGroup>
+            <FormGroup className="col col-md-6">
               <Label htmlFor="email">Email</Label>
               <Input type="email" id="email" name="email" innerRef={input => this.email = input} placeholder="Email" />
             </FormGroup>
-            <FormGroup>
+            <FormGroup className="col col-md-6">
               <Label htmlFor="feedback">Feedback</Label>
               <Input type="textarea" name="feedback" placeholder="Feedback" />
             </FormGroup>

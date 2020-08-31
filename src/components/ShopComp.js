@@ -6,8 +6,10 @@ function Shop(props) {
   return (
     <div className="col">
       <div className="card">
+      <div className="card-header">
+          <h1>Shop</h1>
+        </div>
         <div className="card-body">
-          <CardTitle className="ml-5">Shop With Us!</CardTitle>
           <img className="ml-5" src="/assets/images/coffee-shop.png" width="80%" />
         </div>
       </div>
