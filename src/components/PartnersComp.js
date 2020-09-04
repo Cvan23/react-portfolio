@@ -13,27 +13,25 @@ function Partners(props) {
 }
 
 class ComPartners extends Component {
-
   constructor(props) {
-    super(props);
-    this.toggle = this.toggle.bind(this);
-    this.state = { collapse: 0, cards: [1] };
-  }
-  toggle(e) {
-    let event = e.target.dataset.event;
-    this.setState({ collapse: this.state.collapse === Number(event) ? 0 : Number(event) });
-  }
-  render() {
-    const {cards, collapse} = this.state;
-    return (
-      <div className="container">
-          <h3 className="page-header">Meet Our Friends!</h3>
-          {cards.map(index => {
-            return (
+      super(props);
+      this.toggle = this.toggle.bind(this);
+      this.state = { collapse: 0 };
+    }
+
+    toggle(e) {
+      let event = e.target.dataset.event;
+      this.setState({ collapse: this.state.collapse === Number(event) ? 0 : Number(event) });
+    }
+    render() {
+      const {collapse} = this.state;
+      return (
+        <div className="container">
+            <h3 className="page-header">Meet Our Friends!</h3>
             <React.Fragment> 
-              <Card style={{ marginBottom: '1rem' }} key={index}>
-                <CardHeader className="card-subtitle" onClick={this.toggle} data-event={index}>Pounce Play and Stay</CardHeader>
-                <Collapse isOpen={collapse === index}>
+              <Card style={{ marginBottom: '1rem' }} key="1">
+                <CardHeader className="card-subtitle" onClick={this.toggle} data-event="1">Pounce Play and Stay</CardHeader>
+                <Collapse isOpen={collapse === 1}>
                   <CardBody>
                     <div className="col">
                       <a href="http://www.pounceplayandstay.com/" target="-blank">
@@ -46,9 +44,9 @@ class ComPartners extends Component {
                 </Collapse>
               </Card>
                 <hr />
-              <Card style={{ marginBottom: '1rem' }} key={index}>
-                <CardHeader className="card-subtitle" onClick={this.toggle} data-event={index}>The Pixie Project</CardHeader>
-                <Collapse isOpen={collapse === index}>
+              <Card style={{ marginBottom: '1rem' }} key="2">
+                <CardHeader className="card-subtitle" onClick={this.toggle} data-event="2">The Pixie Project</CardHeader>
+                <Collapse isOpen={collapse === 2}>
                   <CardBody>
                     <div className="col">
                         <a href="https://www.pixieproject.org/" target="-blank">
@@ -61,18 +59,10 @@ class ComPartners extends Component {
                 </Collapse>
               </Card>
             </React.Fragment>
-              
-            )
-          })}     
-  
-        </div>
-    );
-  }
-}
 
-
-
-
-
+          </div>
+      );
+    }
+};
 
 export default Partners;
