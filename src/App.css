@@ -83,7 +83,7 @@ button {
   font-weight: 600;
 }
 
-.card-body {
+.card-body, .modal-body {
   background-image: linear-gradient( to left, #413f3da1,
   #53402a67, #2105504f);
 }
@@ -102,7 +102,7 @@ button {
   box-shadow: 6px 6px 4px rgba(76, 0, 130, 0.699);
 }
 
-.card-header {
+.card-header, .modal-header, .modal-footer {
   background-image: linear-gradient( to right, rgba(138, 4, 233, 0.37),
   rgba(102, 3, 173, 0.281), rgb(76, 0, 130));
   background-size: cover;
@@ -142,6 +142,19 @@ button {
 
 .front {
   background-image: url(./angrycoffeecat.jpg);
+}
+
+.card-img:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.5s;
+  border-left: 8px solid indigo;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 

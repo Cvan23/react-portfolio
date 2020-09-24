@@ -28,7 +28,7 @@ function CatCard() {
     <Card className="container-fluid">
       <CardTitle className="card-header row">Welcome to Coffee Kitty!</CardTitle>
       <CardBody className="row">
-      <Col className="d-flex ml-5">
+      <Col className="d-flex ml-5 pl-5">
       <div onClick={() => set(state => !state)}>
         <a.div class="c back" style={{ opacity: opacity.interpolate(o => 1 - o), transform }} />
         <a.div class="c front" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }} />
